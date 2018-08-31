@@ -1,0 +1,3 @@
+#include "VCOMAI\defines.hpp"
+#include "VCOMAI\DialogDefines.hpp"
+#include "VCOMAI\dialogs.hpp"
