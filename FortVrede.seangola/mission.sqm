@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6987.7876,78.042519,6154.0605};
-		dir[]={-0.20777363,-0.74810243,0.63022602};
-		up[]={-0.23423611,0.66357839,0.71049273};
-		aside[]={0.9497233,-5.0495146e-009,0.31310681};
+		pos[]={5168.1436,60.955532,1042.9093};
+		dir[]={0.3900604,-0.43736994,0.81041956};
+		up[]={0.18970597,0.89924729,0.39414707};
+		aside[]={0.90115845,1.3117678e-006,-0.4337393};
 	};
 };
 binarizationWanted=0;
@@ -104,9 +104,6 @@ addons[]=
 	"camofaces_items",
 	"ace_realisticnames",
 	"CUP_Weapons_Grenades",
-	"ARMSCor_R1",
-	"ARMSCor_Weapons",
-	"CUP_Weapons_Colt1911",
 	"A3_Characters_F_Heads",
 	"A3_Characters_F_Orange_Facewear",
 	"ace_goggles",
@@ -118,7 +115,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=72;
+		items=69;
 		class Item0
 		{
 			className="plp_urban_barriers";
@@ -500,52 +497,33 @@ class AddonsMetaData
 		};
 		class Item64
 		{
-			className="ARMSCor_R1";
-			name="ARMSCor_R1";
-			author="Dana Beck (PetraCephas)";
-			url="http://www.facebook.com/armscormod";
-		};
-		class Item65
-		{
-			className="ARMSCor_Weapons";
-			name="ARMSCor_Weapons";
-			author="Dana Beck (PetraCephas)";
-			url="http://www.facebook.com/armscormod";
-		};
-		class Item66
-		{
-			className="CUP_Weapons_Colt1911";
-			name="CUP_Weapons_Colt1911";
-		};
-		class Item67
-		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item68
+		class Item65
 		{
 			className="ace_goggles";
 			name="ACE3 - Goggles";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item69
+		class Item66
 		{
 			className="acre_sys_prc77";
 			name="ACRE2 - AN/PRC-77";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item70
+		class Item67
 		{
 			className="acre_sys_prc117f";
 			name="ACRE2 - AN/PRC-117F";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item71
+		class Item68
 		{
 			className="acre_sys_prc152";
 			name="ACRE2 - AN/PRC-152";
@@ -9694,6 +9672,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1184;
@@ -9730,6 +9709,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1197;
@@ -9748,6 +9728,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1198;
@@ -9766,6 +9747,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1199;
@@ -9784,6 +9766,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1200;
@@ -9802,6 +9785,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1201;
@@ -9820,6 +9804,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1202;
@@ -9838,6 +9823,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1203;
@@ -9856,6 +9842,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1204;
@@ -9874,6 +9861,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1205;
@@ -9892,6 +9880,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1206;
@@ -9910,6 +9899,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1207;
@@ -9928,6 +9918,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1208;
@@ -9946,6 +9937,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1209;
@@ -9964,6 +9956,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1210;
@@ -9982,6 +9975,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1211;
@@ -10000,6 +9994,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1212;
@@ -10018,6 +10013,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1213;
@@ -10036,6 +10032,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1214;
@@ -10054,6 +10051,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
 			id=1215;
@@ -24565,15 +24563,15 @@ class Mission
 									};
 									class Item4
 									{
-										name="CUP_30Rnd_545x39_AK_M";
-										count=6;
-										ammoLeft=30;
-									};
-									class Item5
-									{
 										name="CUP_HandGrenade_M67";
 										count=1;
 										ammoLeft=1;
+									};
+									class Item5
+									{
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -24689,26 +24687,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -24719,39 +24732,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -24760,8 +24773,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4618;
@@ -24865,26 +24880,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -24895,39 +24925,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -24936,8 +24966,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4620;
@@ -25022,26 +25054,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -25052,39 +25099,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -25093,8 +25140,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4622;
@@ -25198,26 +25247,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -25228,39 +25292,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -25269,8 +25333,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4624;
@@ -25355,26 +25421,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -25385,39 +25466,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -25426,8 +25507,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4626;
@@ -25552,26 +25635,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -25582,39 +25680,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -25623,8 +25721,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4628;
@@ -25728,26 +25828,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -25758,39 +25873,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -25799,8 +25914,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4630;
@@ -25923,26 +26040,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -25953,39 +26085,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -25994,8 +26126,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4632;
@@ -26101,26 +26235,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -26131,39 +26280,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -26172,8 +26321,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4634;
@@ -26260,26 +26411,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -26290,39 +26456,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -26331,8 +26497,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4636;
@@ -26419,26 +26587,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -26449,39 +26632,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -26490,8 +26673,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4638;
@@ -26576,26 +26761,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -26606,39 +26806,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -26647,8 +26847,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4640;
@@ -26735,26 +26937,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -26765,39 +26982,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -26806,8 +27023,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4642;
@@ -26911,26 +27130,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -26941,39 +27175,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -26982,8 +27216,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4644;
@@ -27070,26 +27306,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -27100,39 +27351,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -27141,8 +27392,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4646;
@@ -27248,26 +27501,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -27278,39 +27546,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -27319,8 +27587,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4648;
@@ -27812,26 +28082,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -27842,39 +28127,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -27883,8 +28168,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4654;
@@ -27969,26 +28256,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -27999,39 +28301,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -28040,8 +28342,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4656;
@@ -28126,26 +28430,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -28156,39 +28475,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -28197,8 +28516,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4658;
@@ -28434,30 +28755,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class secondaryWeapon
-							{
-								name="UK3CB_BAF_Javelin_Slung_Tube";
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -28468,39 +28800,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -28509,8 +28841,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4662;
@@ -28615,30 +28949,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class secondaryWeapon
-							{
-								name="UK3CB_BAF_Javelin_Slung_Tube";
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -28649,39 +28994,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -28690,8 +29035,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4664;
@@ -28796,30 +29143,41 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="ARMSCor_R1_MOD";
+								name="CUP_arifle_AK74";
 								class primaryMuzzleMag
 								{
-									name="ARMSCor_20Rnd_762x51_R1";
-									ammoLeft=20;
-								};
-							};
-							class secondaryWeapon
-							{
-								name="UK3CB_BAF_Javelin_Slung_Tube";
-							};
-							class handgun
-							{
-								name="CUP_hgun_Colt1911";
-								class primaryMuzzleMag
-								{
-									name="CUP_7Rnd_45ACP_1911";
-									ammoLeft=7;
+									name="CUP_30Rnd_545x39_AK_M";
+									ammoLeft=30;
 								};
 							};
 							class uniform
 							{
-								typeName="ARMSCor_CombatUniform_SADF_I";
+								typeName="ARMSCor_Uniform_32Bat_I";
 								isBackpack=0;
+								class ItemCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="ACE_MapTools";
+										count=1;
+									};
+									class Item1
+									{
+										name="BW_Facepaint";
+										count=1;
+									};
+									class Item2
+									{
+										name="Serbian_Facepaint";
+										count=1;
+									};
+									class Item3
+									{
+										name="US_Facepaint";
+										count=1;
+									};
+								};
 							};
 							class vest
 							{
@@ -28830,39 +29188,39 @@ class Mission
 									items=6;
 									class Item0
 									{
-										name="ARMSCor_20Rnd_762x51_R1";
-										count=6;
-										ammoLeft=20;
-									};
-									class Item1
-									{
-										name="CUP_7Rnd_45ACP_1911";
-										count=2;
-										ammoLeft=7;
-									};
-									class Item2
-									{
 										name="HandGrenade";
 										count=1;
 										ammoLeft=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="SmokeShell";
 										count=2;
 										ammoLeft=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="SmokeShellRed";
-										count=2;
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item4
+									{
+										name="CUP_HandGrenade_M67";
+										count=1;
 										ammoLeft=1;
 									};
 									class Item5
 									{
-										name="SmokeShellGreen";
-										count=2;
-										ammoLeft=1;
+										name="CUP_30Rnd_545x39_AK_M";
+										count=6;
+										ammoLeft=30;
 									};
 								};
 							};
@@ -28871,8 +29229,10 @@ class Mission
 								typeName="za_bag_carryall_brown";
 								isBackpack=1;
 							};
+							map="ItemMap";
+							compass="ItemCompass";
 							watch="ItemWatch";
-							headgear="ARMSCor_Booniehat_SADF_I";
+							headgear="H_Bandanna_gry";
 						};
 					};
 					id=4666;

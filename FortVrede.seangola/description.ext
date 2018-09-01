@@ -1,3 +1,67 @@
 #include "VCOMAI\defines.hpp"
 #include "VCOMAI\DialogDefines.hpp"
 #include "VCOMAI\dialogs.hpp"
+
+
+respawn = 3;  // Allow JIP
+respawnButton = 0;
+respawnDialog = 0;
+respawnTemplates[] = {"Base", "Tickets", "EndMission"};  // Also hides respawn timer
+disabledAI = 1;
+
+ShowGPS = 0;
+showCompass = 1;
+showMap = 1;
+showWatch = 1;
+
+// CBA Settings
+cba_settings_hasSettingsFile = 1;
+
+// CfgFunctions
+class CfgFunctions
+{
+    class ZAMF
+    {
+        tag = "ZAMF";
+        class functions
+        {
+            file = "zamf\fnc";
+            class getLoadout {description = "Uses aeroson's get_loadout function.";};
+            class setLoadout {description = "Uses aeroson's set_loadout function.";};
+        };
+
+        class res
+        {
+            file = "zamf\res\fnc";
+            class res_init{description = "Initializes the mod."; postInit = 1;};
+            class res_loop{description = "Main save loop.";};
+            class res_restore{description = "Restores player status from prfileNameSpace.";};
+            class res_getData{description = "Saves player status to prfileNameSpace.";};
+            class res_request{description = "This checks to see if the player is in the save data and restores if so.";};
+            class res_killed{description = "Sets the save data to killed for the given player object.";};
+        };
+    };
+};
+
+// Enabling remote execution: https://community.bistudio.com/wiki/CfgRemoteExec
+class CfgRemoteExec
+{
+    // List of script functions allowed to be sent from client via remoteExec
+    class Functions
+    {
+        // State of remoteExec: 0-turned off, 1-turned on, taking whitelist into account, 2-turned on, however, ignoring whitelists (default because of backward compatibility)
+        mode = 3;
+        // Ability to send jip messages: 0-disabled, 1-enabled (default)
+        jip = 1;
+        /*your functions here*/
+
+    };
+
+    class Commands
+    {
+        class remoteExec
+        {
+            allowedTargets = 2; // can target anyone
+        };
+    };
+};
