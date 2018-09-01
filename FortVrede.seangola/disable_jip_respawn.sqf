@@ -6,13 +6,15 @@
 if (isServer) then {
 	killed_player_ids = [];
 	publicVariable "killed_player_ids";
-}
+};
 
 if (hasInterface) then {
 	player addEventHandler [
 		"killed", {
-			killed_player_ids set [count killed_player_ids, getPlayerUID player];
-			publicVariable "killed_player_ids";
+			if !((getPlayerUID player) in killed_player_ids) then {
+				killed_player_ids set [count killed_player_ids, getPlayerUID player];
+				publicVariable "killed_player_ids";
+			};
 		}
 	];
 };

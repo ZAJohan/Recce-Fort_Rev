@@ -5,7 +5,7 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1026;
+	toggles=1030;
 	class ItemIDProvider
 	{
 		nextID=4694;
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5168.1436,60.955532,1042.9093};
-		dir[]={0.3900604,-0.43736994,0.81041956};
-		up[]={0.18970597,0.89924729,0.39414707};
-		aside[]={0.90115845,1.3117678e-006,-0.4337393};
+		pos[]={5165.3716,58.651417,1092.5925};
+		dir[]={0.59247488,-0.53540683,0.60211092};
+		up[]={0.37555015,0.8445617,0.38165864};
+		aside[]={0.71286511,1.9348226e-006,-0.70146263};
 	};
 };
 binarizationWanted=0;
@@ -568,6 +568,7 @@ class Mission
 {
 	class Intel
 	{
+		briefingName="FortVerde template v0.0.2";
 		timeOfChanges=1800.0002;
 		startWeather=0.15000001;
 		startFog=0.029999999;

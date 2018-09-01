@@ -4,6 +4,7 @@
 
 
 respawn = 3;  // Allow JIP
+respawnDelay = 5;
 respawnButton = 0;
 respawnDialog = 0;
 respawnTemplates[] = {"Base", "Tickets", "EndMission"};  // Also hides respawn timer
