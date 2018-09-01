@@ -4,11 +4,13 @@
 
 
 respawn = 3;  // Allow JIP
-respawnDelay = 5;
+respawnDelay = 3;
 respawnButton = 0;
 respawnDialog = 0;
 respawnTemplates[] = {"Base", "Tickets", "EndMission"};  // Also hides respawn timer
 disabledAI = 1;
+
+enableDebugConsole = 0;  // Should set to 0 in production
 
 ShowGPS = 0;
 showCompass = 1;
@@ -51,7 +53,7 @@ class CfgRemoteExec
     class Functions
     {
         // State of remoteExec: 0-turned off, 1-turned on, taking whitelist into account, 2-turned on, however, ignoring whitelists (default because of backward compatibility)
-        mode = 3;
+        mode = 2;
         // Ability to send jip messages: 0-disabled, 1-enabled (default)
         jip = 1;
         /*your functions here*/
@@ -62,7 +64,7 @@ class CfgRemoteExec
     {
         class remoteExec
         {
-            allowedTargets = 2; // can target anyone
+            allowedTargets = 0; // can target anyone
         };
     };
 };

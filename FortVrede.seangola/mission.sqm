@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5165.3716,58.651417,1092.5925};
+		pos[]={5156.3486,58.651417,1083.4237};
 		dir[]={0.59247488,-0.53540683,0.60211092};
 		up[]={0.37555015,0.8445617,0.38165864};
 		aside[]={0.71286511,1.9348226e-006,-0.70146263};
@@ -568,7 +568,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="FortVerde template v0.0.2";
+		briefingName="FortVerde template v0.0.6";
 		timeOfChanges=1800.0002;
 		startWeather=0.15000001;
 		startFog=0.029999999;
