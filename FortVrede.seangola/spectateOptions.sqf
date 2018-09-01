@@ -12,9 +12,7 @@
 		(NUL)
 */
 
-private ["_unit"];
-
-_unit = _this select 0;
+params ["_unit"];
 
 waitUntil {!(isNull _unit)};
 
@@ -40,3 +38,6 @@ _teleport_map_click = {
 
 _unit addAction ["Spectate", {["Initialize", [player, [], true]] call BIS_fnc_EGSpectator;}];
 _unit addAction ["Teleport", _teleport_map_click];
+
+// Track all units
+[] execVM "spectateTrack.sqf";
