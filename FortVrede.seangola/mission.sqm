@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5156.3486,58.651417,1083.4237};
-		dir[]={0.59247488,-0.53540683,0.60211092};
-		up[]={0.37555015,0.8445617,0.38165864};
-		aside[]={0.71286511,1.9348226e-006,-0.70146263};
+		pos[]={5204.8394,14.709229,1134.6591};
+		dir[]={0.60507768,-0.64192879,0.47120559};
+		up[]={0.50648177,0.76674169,0.39442408};
+		aside[]={0.61448681,2.1850792e-006,-0.78907198};
 	};
 };
 binarizationWanted=0;
@@ -109,7 +109,7 @@ addons[]=
 	"ace_goggles",
 	"acre_sys_prc77",
 	"acre_sys_prc117f",
-	"acre_sys_prc152"
+	"acre_sys_prc343"
 };
 class AddonsMetaData
 {
@@ -525,8 +525,8 @@ class AddonsMetaData
 		};
 		class Item68
 		{
-			className="acre_sys_prc152";
-			name="ACRE2 - AN/PRC-152";
+			className="acre_sys_prc343";
+			name="ACRE2 - AN/PRC-343";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
@@ -539,7 +539,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -28628,7 +28628,7 @@ class Mission
 									};
 									class Item2
 									{
-										name="ACRE_PRC152";
+										name="ACRE_PRC343";
 										count=1;
 									};
 								};
