@@ -14,11 +14,9 @@
 
 params ["_unit"];
 
-waitUntil {!(isNull _unit)};
-
 // Make sure addactions only appear to the player themselves.
+waitUntil {!(isNull player) and !(isNull _unit)};
 if !(local _unit) exitWith {};
-waitUntil {!(isNull player)};
 sleep 5;
 
 // Allow exiting of spectator script if inventory key is pressed
