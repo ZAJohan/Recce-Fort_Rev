@@ -1,5 +1,7 @@
 params ["_player", "_didJIP"];
 
+[_player, 1] call BIS_fnc_respawnTickets;
+
 waitUntil {!(isNil "killed_player_ids")};
 
 if (getPlayerUID _player in killed_player_ids) then {
