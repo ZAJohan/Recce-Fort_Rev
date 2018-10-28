@@ -38,4 +38,4 @@ _unit addAction ["Spectate", {["Initialize", [player, [], true]] call BIS_fnc_EG
 _unit addAction ["Teleport", _teleport_map_click];
 
 // Track all units
-[] execVM "spectateTrack.sqf";
+//[] execVM "spectateTrack.sqf";
