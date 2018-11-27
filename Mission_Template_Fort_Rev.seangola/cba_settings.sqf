@@ -219,7 +219,7 @@ force ace_medical_enableRevive = 0;
 
 force ace_medical_enableScreams = true;
 
-force ace_medical_enableUnconsciousnessAI = 2;
+force ace_medical_enableUnconsciousnessAI = 0;
 
 force ace_medical_enableVehicleCrashes = true;
 
