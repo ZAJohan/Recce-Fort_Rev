@@ -498,28 +498,3 @@ adv_aceCPR_chance_aed = 85;
 adv_aceCPR_enable = false;
 
 adv_aceCPR_maxTime = 1200;
-
-
-
-// ADV - ACE Splint
-force 
-adv_aceSplint_enable = true;
-
-force adv_aceSplint_reopenChance = 20;
-
-force adv_aceSplint_reopenTime = 600;
-
-force adv_aceSplint_reuseChance = 80;
-
-
-
-// ZAM ShowNames
-force ZAM_showNames_fade = true;
-
-force ZAM_showNames_fog = true;
-
-force ZAM_showNames_magn = true;
-
-force ZAM_showNames_voice = true;
-
-ace_nametags_showPlayerRanks = false;
