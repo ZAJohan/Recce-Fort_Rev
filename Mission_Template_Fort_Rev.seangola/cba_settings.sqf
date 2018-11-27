@@ -421,54 +421,6 @@ force ace_zeus_zeusBird = false;
 
 
 
-// ACEX Headless
-force 
-acex_headless_delay = 15;
-
-force acex_headless_enabled = true;
-
-force acex_headless_endMission = 0;
-
-force acex_headless_log = true;
-
-
-
-// ACEX Sitting
-force 
-acex_sitting_enable = true;
-
-
-
-// ACEX View Restriction
-force 
-acex_viewrestriction_mode = 0;
-
-force acex_viewrestriction_modeSelectiveAir = 0;
-
-force acex_viewrestriction_modeSelectiveFoot = 0;
-
-force acex_viewrestriction_modeSelectiveLand = 0;
-
-force acex_viewrestriction_modeSelectiveSea = 0;
-
-
-
-// ACEX 
-Volume
-acex_volume_enabled = false;
-
-acex_volume_fadeDelay = 1;
-
-acex_volume_lowerInVehicles = false;
-
-acex_volume_reduction = 5;
-
-acex_volume_remindIfLowered = false;
-
-acex_volume_showNotification = true;
-
-
-
 // ACRE2
 force 
 acre_sys_core_fullDuplex = false;
