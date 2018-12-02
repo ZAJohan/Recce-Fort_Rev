@@ -3,3 +3,4 @@
 
 [] execVM "disable_jip_respawn.sqf";
 
+[] execVM "log_difficulty.sqf";
