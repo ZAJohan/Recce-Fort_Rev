@@ -31,7 +31,7 @@ nul = [] spawn {
 				_x setVariable ["killed_logging_added", true, false];
 				_x setVariable ["original_side_str", str(side _x), false];
 			};
-			sleep 0.25;
+			sleep 0.1;
 		} forEach allUnits;
 		sleep 30;
 	};
