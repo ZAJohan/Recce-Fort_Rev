@@ -2,9 +2,6 @@ author="Recce Gaming -ZAJohan";
 onLoadName = "Mission Temaplate Fort Rev";
 OnLoadMission = "Basic layout for creating the Recce Arma Mission Challenge series.";
 overviewPicture = "Overview.jpg";
-#include "VCOMAI\defines.hpp"
-#include "VCOMAI\DialogDefines.hpp"
-#include "VCOMAI\dialogs.hpp"
 
 
 respawn = 3;  // Allow JIP
@@ -27,6 +24,7 @@ cba_settings_hasSettingsFile = 1;
 // CfgFunctions
 class CfgFunctions
 {
+    #include "vcom\cfgFunctions.hpp"  // VCOM
     class ZAMF
     {
         tag = "ZAMF";
@@ -50,6 +48,13 @@ class CfgFunctions
     };
 };
 
+// VCOM
+class Extended_PreInit_EventHandlers {
+	class VCM_CBASettings {
+		init = "call VCM_fnc_CBA_Settings";
+	};
+};
+
 // Enabling remote execution: https://community.bistudio.com/wiki/CfgRemoteExec
 class CfgRemoteExec
 {
@@ -60,6 +65,13 @@ class CfgRemoteExec
         mode = 2;
         // Ability to send jip messages: 0-disabled, 1-enabled (default)
         jip = 1;
+        // VCOM
+        class vcm_serverask { allowedTargets = 0;jip = 1; };
+		class VCM_PublicScript { allowedTargets = 0;jip = 1; };
+		class BIS_fnc_debugConsoleExec { allowedTargets = 0;jip = 1; };
+		class SpawnScript { allowedTargets = 0;jip = 1; };
+		class enableSimulationGlobal { allowedTargets = 0;jip = 1; };
+		class VCM_fnc_KnowAbout { allowedTargets = 0;jip = 1; };
         /*your functions here*/
 
     };
